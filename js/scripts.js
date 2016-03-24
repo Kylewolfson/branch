@@ -1,12 +1,14 @@
 $(document).ready(function() {
+  $(".hide").hide();
 
 
 $("#critterChooser").submit(function(event) {
   event.preventDefault();
   var choice = $("#critter").val();
+  console.log(choice);
 
   if (choice === "Insects") {
-    $("#insect").removeClass("hide");
+    $("#insect").show();
   }
   else if (choice === "Turtles") {
     $("#turtle").removeClass("hide");
