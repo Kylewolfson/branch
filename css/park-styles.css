@@ -1,0 +1,8 @@
+.hide{
+  display:none;
+}
+
+.highlight{
+  background-color: yellow;
+  font-weight: bolder;
+}
